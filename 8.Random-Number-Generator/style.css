@@ -1,0 +1,21 @@
+button {
+  color: blueviolet;
+  height: 5vh;
+  width: 10.2vh;
+  background-color: skyblue;
+  font-size: 2.5vh;
+  font-weight: 900;
+  margin: 10px;
+  margin-top: 0px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 20vh;
+  font-family: helvetica;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
