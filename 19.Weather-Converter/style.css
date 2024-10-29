@@ -15,18 +15,19 @@ body {
 
 .wrapper {
   background-color: transparent;
-  height: 70vh;
+  height: 50vh;
   width: 25%;
   display: flex;
   flex-direction: column;
   border: 0.4vh solid #2d936c;
   border-radius: 6vh;
-  justify-content: center; /* Center content horizontally within wrapper */
+  padding-top: 10vh;
   align-items: center; /* Center content vertically within wrapper */
 }
 
 h1 {
   color: #2d936c;
+  margin-bottom: 6vh;
 }
 input {
   background-color: #003b36;
@@ -74,4 +75,9 @@ button:hover {
 }
 #convertedtxt {
   color: #2d936c;
+  margin-top: 5vh;
+  font-size: 6.5vh;
+  border: 0.3vh solid #2d936c;
+  width: 70%;
+  text-align: center;
 }
