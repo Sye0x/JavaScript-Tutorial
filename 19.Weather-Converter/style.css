@@ -38,6 +38,7 @@ input {
   font-size: 4vh;
   height: 4vh;
   width: 75%;
+  border-radius: 2vh;
 }
 #radio {
   height: 2vh;
@@ -61,6 +62,7 @@ button {
   cursor: pointer;
   width: 12vh;
   font-size: 4vh;
+  border-radius: 4vh;
 }
 button:hover {
   background-color: #2d936c;
@@ -76,8 +78,9 @@ button:hover {
 #convertedtxt {
   color: #2d936c;
   margin-top: 5vh;
-  font-size: 6.5vh;
+  font-size: 6vh;
   border: 0.3vh solid #2d936c;
   width: 70%;
   text-align: center;
+  border-radius: 3vh;
 }
