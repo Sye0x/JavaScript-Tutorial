@@ -1,0 +1,62 @@
+* {
+  font-family: helvetica;
+  background-color: #28282b;
+}
+label {
+  color: blueviolet;
+  margin-bottom: 1.5vh;
+}
+.guessbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  color: blueviolet;
+  text-decoration: none;
+  outline: none; /* Remove focus outline */
+  border: 1px solid blueviolet; /* Set border color */
+  padding: 8px; /* Add some padding */
+  border-radius: 4px;
+  width: 10%;
+  margin-bottom: 1.2vh;
+}
+button {
+  color: blueviolet;
+  border: 0.4vh solid blueviolet;
+  cursor: pointer;
+  height: 6vh;
+  width: 10vh;
+  border-radius: 4vh;
+  font-size: 2.5vh;
+}
+.display {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 30vh 0vh 30vh;
+}
+h1 {
+  color: blueviolet;
+  font-size: 22vh;
+  border: 0.4vh solid blueviolet;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  min-width: 18vh;
+  width: fit-content;
+  text-align: center;
+}
+
+#moreless {
+  border: 0px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  margin: 0; /* Remove default margin */
+}
