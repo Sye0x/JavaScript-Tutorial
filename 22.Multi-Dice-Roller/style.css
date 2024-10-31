@@ -1,0 +1,75 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #003b36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: #2d936c;
+  font-size: 7vh;
+  margin-bottom: 6vh;
+}
+
+input {
+  background-color: #003b36;
+  border: 0.4px solid #2d936c;
+  color: #2d936c;
+  outline: #2d936c;
+  padding: 15px;
+  font-size: 4vh;
+  height: 4vh;
+  width: 100%;
+  border-radius: 2vh;
+  margin-bottom: 4vh;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  font-size: 4vh;
+  width: 40vh;
+  color: #2d936c;
+}
+
+button {
+  background-color: #003b36;
+  color: #2d936c;
+  border: 0.4px solid #2d936c;
+  cursor: pointer;
+  width: 12vh;
+  font-size: 4vh;
+  border-radius: 4vh;
+}
+button:hover {
+  background-color: #2d936c;
+  color: #003b36;
+  border: 0.4px solid #003b36;
+}
+
+img {
+  width: 15vh;
+  margin: 0 1vh; /* Add margin for spacing between images */
+}
+
+#diceimages {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vh;
+  gap: 1vh; /* Add gap for more consistent spacing */
+}
