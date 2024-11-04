@@ -1,11 +1,11 @@
-// && ,  || , !
+// && , || , !
 
 let age = 50;
 
 if (age >= 18 && age < 100) {
   console.log("You can travel Alone");
 } else {
-  console.log("You can not travel Alone");
+  console.log("You cannot travel Alone");
 }
 
 let isStudent = true;
@@ -14,7 +14,7 @@ let isTeacher = false;
 if (isStudent === true || isTeacher === true) {
   console.log("You can enter the university");
 } else {
-  console.log("You can not enter the university");
+  console.log("You cannot enter the university");
 }
 
 let num = 3;
