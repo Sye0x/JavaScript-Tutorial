@@ -1,3 +1,7 @@
+// nested objects = Objects inside of other Objects.
+// Allows you to represent more complex data structures
+// Child Object is enclosed by a Parent Object Person{Address{}, ContactInfo{}} ShoppingCart{Keyboard {}, Mouse{}, Monitor{}}
+
 class Person {
   constructor(name, age, ...address) {
     this.name = name;
